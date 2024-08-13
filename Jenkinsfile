@@ -1,11 +1,16 @@
 pipeline {
 
     agent any
-/
-	tools {
-        maven "MAVEN3"
-        jdk "OracleJDK8"
+
+	/*
+
+tools {
+
+        maven "maven3"
+
     }
+
+*/
 
     environment {
         registry = "flmngwllm/vprofileapp"
